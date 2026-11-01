@@ -1,0 +1,21 @@
+# Ignore artifacts
+__pycache__/
+*.pyc
+instance/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Ignore uploads
+uploads/
+*.pdf
+*.docx
+
+# Ignore DB (optional - keeping it local)
+*.db
+*.sqlite3
+
+# OS generated
+.DS_Store
+Thumbs.db
